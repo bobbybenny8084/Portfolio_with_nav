@@ -1,0 +1,150 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins);
+
+.nav{
+    margin-top:-10px;
+    position: fixed;
+    z-index: 1000;
+    background: #35012e;
+    height: 65px;
+    width:100%;
+    text-align: center;
+    
+    
+}
+.nav ul{
+    margin: 23px;
+    
+}
+.centerText2 a{
+    text-decoration: none;
+    color:aliceblue;
+}
+.nav a{
+    
+    letter-spacing: 0.09cm;
+    text-decoration: none;
+    color: whitesmoke;
+    font-family:poppins;
+    font-size: 17px;
+}
+#logo_image{
+width: 293px;
+height: 76px;
+
+
+}
+
+.bg_image{
+width:100%;
+
+}
+a:hover{
+color: rgb(255, 115, 15);
+}
+.nav a.active {
+    color: #ff9900; 
+}
+
+.centerText{
+
+border-radius: 6px;
+position: absolute;
+top:25%;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 45px;
+font-weight: 600;
+line-height: 70px;
+letter-spacing: 0.02em;
+text-align: left;
+padding-left: 6%;
+color: antiquewhite;
+
+}
+.centerText2{
+position: absolute;
+top:42%;
+font-family:Arial, Helvetica, sans-serif;
+padding-left: 6%;
+font-size: 25px;
+color: rgb(142, 245, 210);
+}
+.centerText3{
+border-radius: 6px;
+position: absolute;
+top:45%;
+/* left:35%; */
+font-family:poppins;
+font-style: oblique;
+font-size: 35px;
+font-weight: 600;
+line-height: 55px;
+letter-spacing: 0.02em;
+text-align: right;
+padding-left: 65%;
+color: rgba(250, 235, 215, 0.699);
+animation: backwards;
+}
+.bg{
+position: relative;
+}
+.regForm{
+width: 100%;
+margin-top:-4px;
+background-color: white;
+border-radius: 12px;
+position: relative;
+box-shadow: 0px 31px 74px 0px #0000000D;
+
+    
+
+}
+.contactf{
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+    width: 40%;
+    background-color: #bb32bb3d;
+    position: absolute;
+    top: 10%;
+    border-radius: 4px;
+    margin-left: 350px;
+
+}
+form {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 2px;
+    color: #fff;
+    font-size: 20px;
+
+    
+}
+.regForm p{
+    color: #fff;
+    font-size: 25px;
+    
+}
+input, textarea {
+    padding: 8px;
+    margin-bottom: 16px;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
