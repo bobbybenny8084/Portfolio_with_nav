@@ -1,5 +1,6 @@
 
 		.containerskills {
+            animation: fadeIn 1s ease-in-out forwards;
             margin-top: 12.5%;
             margin-left: 15%;
 			height: 55vh;
